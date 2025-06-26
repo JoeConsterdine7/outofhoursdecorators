@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Out of Hours Decorators Wakefield - Professional Painting & Decorating
+      Services
+    </title>
+    <meta
+      name="description"
+      content="Professional painting and decorating services in Wakefield and West Yorkshire. Over 35 years experience. Available 7 days a week for domestic and commercial work."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#gallery" class="nav-link">Job Gallery</a>
+          <a href="#qualifications" class="nav-link">Qualifications</a>
+          <a href="#contact" class="nav-link">Contact Us</a>
+          <a href="tel:+441924123456" class="nav-cta">Call Now</a>
+        </div>
+
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#gallery" class="mobile-nav-link">Job Gallery</a>
+        <a href="#qualifications" class="mobile-nav-link">Qualifications</a>
+        <a href="#contact" class="mobile-nav-link">Contact Us</a>
+        <a href="tel:+441924123456" class="mobile-nav-cta">Call Now</a>
+      </div>
+    </nav>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow-section">
+      <div class="slideshow-container">
+        <div class="slide active">
+          <img src="./images/slideshow-1.jpg" alt="slideshow image" />
+        </div>
+        <div class="slide">
+          <img src="./images/slideshow-2.jpg" alt="slideshow image" />
+        </div>
+        <div class="slide">
+          <img src="./images/slideshow-3.jpg" alt="slideshow image" />
+        </div>
+        <div class="slide">
+          <img src="./images/slideshow-4.jpg" alt="slideshow image" />
+        </div>
+
+        <!-- Navigation arrows -->
+        <button class="slide-nav prev" onclick="changeSlide(-1)">❮</button>
+        <button class="slide-nav next" onclick="changeSlide(1)">❯</button>
+
+        <!-- Slide indicators -->
+        <div class="slide-indicators">
+          <span class="indicator active" onclick="currentSlide(1)"></span>
+          <span class="indicator" onclick="currentSlide(2)"></span>
+          <span class="indicator" onclick="currentSlide(3)"></span>
+          <span class="indicator" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <div class="container">
+        <div class="welcome-content">
+          <h2 class="welcome-title">
+            Welcome to Out of Hours Decorators Wakefield
+          </h2>
+          <p class="welcome-text">
+            If you are looking for a professional decorator in the Wakefield
+            area, whether it's for domestic or commercial work then look no
+            further!
+          </p>
+          <p class="welcome-text">
+            Out of Hours Decorators are an established Painting and Decorating
+            business in West Yorkshire with over 35 years of hands on
+            experience.
+          </p>
+          <p class="welcome-text">
+            Over the last 35 years Out of Hours Decorators have achieved and
+            maintained the reputation of being an honest and reliable company,
+            who promise to deliver the very best service and communications
+            necessary to achieve a customer's requirements.
+          </p>
+          <div class="highlight-box">
+            <p>
+              <strong
+                >We work when you don't. We are available 7 days a week.</strong
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Range of Services</h2>
+          <p class="section-description">
+            Professional painting and decorating services for domestic and
+            commercial properties across West Yorkshire.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9,22 9,12 15,12 15,22" />
+              </svg>
+            </div>
+            <h3 class="service-title">Painting and Decorating</h3>
+            <p class="service-description">
+              Complete painting and decorating services for residential and
+              commercial properties with attention to detail.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect width="18" height="18" x="3" y="3" rx="2" />
+                <path d="M9 9h6v6H9z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Wallpapering</h3>
+            <p class="service-description">
+              Expert wallpaper installation and removal services with precision
+              hanging and pattern matching.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Internal Decorating</h3>
+            <p class="service-description">
+              Transform your interior spaces with professional decorating that
+              enhances your home's beauty.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+                <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+                <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+              </svg>
+            </div>
+            <h3 class="service-title">External Decorating</h3>
+            <p class="service-description">
+              Weather-resistant exterior decorating that protects and beautifies
+              your property's exterior.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 6h18" />
+                <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+              </svg>
+            </div>
+            <h3 class="service-title">Pub Renovations</h3>
+            <p class="service-description">
+              Specialized renovation services for pubs and hospitality venues,
+              working around your business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+      <div class="container">
+        <div class="experience-grid">
+          <div class="experience-content">
+            <h2 class="experience-title">35+ Years of Excellence</h2>
+            <p class="experience-description">
+              We have completed projects for many local businesses such as The
+              Quarry Inn and Steak House in Horbury, The Ship Inn in Leeds, CSL
+              offices Normanton and many more.
+            </p>
+
+            <div class="experience-features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12,6 12,12 16,14" />
+                  </svg>
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Available 7 Days a Week</h3>
+                  <p class="feature-description">
+                    We work around your schedule, including evenings and
+                    weekends
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Honest & Reliable</h3>
+                  <p class="feature-description">
+                    Established reputation for delivering the very best service
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="m22 21-3-3m0 0a5 5 0 1 0-7-7 5 5 0 0 0 7 7z" />
+                  </svg>
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Experienced Team</h3>
+                  <p class="feature-description">
+                    Over 35 years of hands-on painting and decorating experience
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-card">
+            <div class="stats-content">
+              <div class="main-stat">
+                <div class="stat-number">35+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-value">100+</div>
+                  <div class="stat-desc">Commercial Projects</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">7</div>
+                  <div class="stat-desc">Days a Week</div>
+                </div>
+              </div>
+
+              <div class="client-list">
+                <h4>Recent Projects Include:</h4>
+                <ul>
+                  <li>The Quarry Inn & Steak House, Horbury</li>
+                  <li>The Ship Inn, Leeds</li>
+                  <li>CSL Offices, Normanton</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Job Gallery</h2>
+          <p class="section-description">
+            Take a look at some of our recent painting and decorating projects
+            across West Yorkshire.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Interior painting project"
+            />
+            <div class="gallery-overlay">
+              <h3>Residential Interior</h3>
+              <p>Complete room transformation</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Exterior painting"
+            />
+            <div class="gallery-overlay">
+              <h3>Exterior Painting</h3>
+              <p>Weather protection & beauty</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Commercial project"
+            />
+            <div class="gallery-overlay">
+              <h3>Commercial Renovation</h3>
+              <p>Pub & restaurant projects</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Wallpapering"
+            />
+            <div class="gallery-overlay">
+              <h3>Wallpapering</h3>
+              <p>Expert pattern matching</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="qualifications">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Qualifications & Credentials</h2>
+          <p class="section-description">
+            Professional qualifications and certifications that ensure quality
+            workmanship and peace of mind.
+          </p>
+        </div>
+
+        <div class="qualifications-grid">
+          <div class="qualification-card">
+            <div class="qualification-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3 class="qualification-title">Fully Insured</h3>
+            <p class="qualification-description">
+              Comprehensive public liability insurance for complete peace of
+              mind on every project.
+            </p>
+          </div>
+
+          <div class="qualification-card">
+            <div class="qualification-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                />
+              </svg>
+            </div>
+            <h3 class="qualification-title">Quality Assured</h3>
+            <p class="qualification-description">
+              All work completed to the highest professional standards with
+              quality guarantee.
+            </p>
+          </div>
+
+          <div class="qualification-card">
+            <div class="qualification-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="m22 21-3-3m0 0a5 5 0 1 0-7-7 5 5 0 0 0 7 7z" />
+              </svg>
+            </div>
+            <h3 class="qualification-title">Experienced Professionals</h3>
+            <p class="qualification-description">
+              Over 35 years of hands-on experience in all aspects of painting
+              and decorating.
+            </p>
+          </div>
+
+          <div class="qualification-card">
+            <div class="qualification-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M9 12l2 2 4-4" />
+                <path
+                  d="M21 12c.552 0 1-.448 1-1V5c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1h18z"
+                />
+              </svg>
+            </div>
+            <h3 class="qualification-title">Health & Safety Compliant</h3>
+            <p class="qualification-description">
+              Full compliance with health and safety regulations for all
+              domestic and commercial work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-description">
+            Ready to transform your space? Get in touch for a free consultation
+            and quote.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+            </div>
+            <h3 class="contact-title">Call Us</h3>
+            <p class="contact-subtitle">Available 7 days a week</p>
+            <a href="tel:+441924123456" class="contact-link">(01924) 123456</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <h3 class="contact-title">Email Us</h3>
+            <p class="contact-subtitle">Quick response guaranteed</p>
+            <a
+              href="mailto:info@outofhoursdecorators.co.uk"
+              class="contact-link"
+              >info@outofhoursdecorators.co.uk</a
+            >
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <h3 class="contact-title">Service Area</h3>
+            <p class="contact-subtitle">Covering West Yorkshire</p>
+            <p class="contact-link">Wakefield & Surrounding Areas</p>
+          </div>
+        </div>
+
+        <div class="contact-cta">
+          <a href="tel:+441924123456" class="btn btn-primary btn-large">
+            Call for Free Quote
+            <svg
+              class="btn-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                />
+              </svg>
+              <span>Out of Hours Decorators</span>
+            </div>
+            <p class="footer-description">
+              Professional painting and decorating services in Wakefield and
+              West Yorkshire. Over 35 years of experience.
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-title">Services</h4>
+            <ul class="footer-links">
+              <li>Painting and Decorating</li>
+              <li>Wallpapering</li>
+              <li>Internal Decorating</li>
+              <li>External Decorating</li>
+              <li>Pub Renovations</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-title">Contact</h4>
+            <ul class="footer-links">
+              <li>(01924) 123456</li>
+              <li>info@outofhoursdecorators.co.uk</li>
+              <li>Available 7 days a week</li>
+              <li>Free consultations</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-title">Why Choose Us</h4>
+            <ul class="footer-links">
+              <li>35+ years experience</li>
+              <li>Fully insured</li>
+              <li>Honest & reliable</li>
+              <li>Available 7 days a week</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Out of Hours Decorators Wakefield. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Slideshow functionality
+      let slideIndex = 0;
+      const slides = document.querySelectorAll(".slide");
+      const indicators = document.querySelectorAll(".indicator");
+
+      function showSlide(index) {
+        slides.forEach((slide) => slide.classList.remove("active"));
+        indicators.forEach((indicator) => indicator.classList.remove("active"));
+
+        slides[index].classList.add("active");
+        indicators[index].classList.add("active");
+      }
+
+      function changeSlide(direction) {
+        slideIndex += direction;
+        if (slideIndex >= slides.length) slideIndex = 0;
+        if (slideIndex < 0) slideIndex = slides.length - 1;
+        showSlide(slideIndex);
+      }
+
+      function currentSlide(index) {
+        slideIndex = index - 1;
+        showSlide(slideIndex);
+      }
+
+      // Auto-advance slideshow
+      setInterval(() => {
+        changeSlide(1);
+      }, 5000);
+
+      // Mobile menu functionality
+      const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+      const mobileMenu = document.querySelector(".mobile-menu");
+
+      mobileMenuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+        mobileMenuToggle.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking on links
+      document
+        .querySelectorAll(".mobile-nav-link, .mobile-nav-cta")
+        .forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+            mobileMenuToggle.classList.remove("active");
+          });
+        });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Navbar background on scroll
+      window.addEventListener("scroll", () => {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>
